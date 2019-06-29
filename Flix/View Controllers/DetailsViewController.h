@@ -16,8 +16,8 @@ NS_ASSUME_NONNULL_BEGIN
 @property (weak, nonatomic) IBOutlet UILabel *releaseDate;
 @property (weak, nonatomic) IBOutlet UIImageView *miniPoster;
 @property (weak, nonatomic) IBOutlet UILabel *movieDes;
-
 @property (nonatomic, strong) NSDictionary *movie;
+@property (strong, nonatomic) IBOutlet UITapGestureRecognizer *imageTapper;
 
 
 

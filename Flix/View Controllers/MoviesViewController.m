@@ -209,6 +209,9 @@
     
     NSDictionary *movie = self.filteredMovies[indexPath.row];
     
+    cell.selectionStyle = UITableViewCellSelectionStyleNone;
+
+    
     cell.titleLabel.text = movie[@"title"];
     cell.synopsisLabel.text = movie[@"overview"];
     
